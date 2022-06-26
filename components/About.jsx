@@ -5,31 +5,18 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-24'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <p className='uppercase text-xl tracking-widest text-[#004aad]'>
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            / / I am not your average developer
+            Hi, I&apos;m Max, a software engineer from Minnesota.  I am a critically minded problem solver interested in how complex systems interact and relate to each other.  If it&apos;s worth doing then it&apos;s worth doing right!
           </p>
           <p className='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
-          </p>
-          <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the Shopify platform. I am
-            now spending my time building projects with React JS, Firebase, and
-            learning new technologies.
+            I am always looking for ways to work smarter not harder, whether individually with my rubber duck or communicating with teams I believe that there is always a solution to any size problem.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

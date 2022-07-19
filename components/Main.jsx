@@ -14,9 +14,9 @@ const Main = () => {
               LET&#39;S BUILD TOMORROW TODAY
             </p>
             <h1 className="py-4 text-gray-700">
-              Hi, I&#39;m <span className="text-[#004aad]"> Max,</span>
+              Hi I&#39;m <span className="text-[#004aad]"> Max,</span>
             </h1>
-            <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
+            <h1 className="py-2 text-gray-700">A Software Engineer</h1>
             <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
               I&#39;m interested in building collaborative creative solutions
               for complex problems.

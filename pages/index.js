@@ -12,23 +12,23 @@ export default function Home() {
         <title>Max | Front-End Developer</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building exceptional digital experiences."
+          content="I’m a software developer specializing in building exceptional digital experiences."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
-      <div className="snap-y snap-mandatory h-screen overflow-scroll">
-        <div className="snap-center">
+      <div className="snap-y snap-mandatory  h-screen overflow-scroll">
+        <div className="snap-start">
           <Main />
         </div>
         <div className="snap-start">
           <About />
-        </div>{" "}
+        </div>
         <div className="snap-center">
           <Skills />
-        </div>{" "}
-        <div className="snap-center">
+        </div>
+        <div className="snap-start">
           <Projects />
-        </div>{" "}
+        </div>
         <div className="snap-start">
           <Contact />
         </div>

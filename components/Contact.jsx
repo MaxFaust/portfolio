@@ -61,7 +61,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between md: justify-start py-4">
+                <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/max-faust-193b5519b/"
                     target="_blank"
@@ -100,8 +100,9 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label id="name" className="uppercase text-sm py-2">Name</label>
                     <input
+                      id="name"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="from_name"
@@ -150,7 +151,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/">
+          <Link href="/#home">
             <a>
               <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleUp

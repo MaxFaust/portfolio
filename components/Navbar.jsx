@@ -16,10 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/property' ||
-      router.asPath === '/crypto' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch'
+      router.asPath === '/proshop'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
@@ -48,7 +45,7 @@ const Navbar = () => {
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
-        shadow
+        !shadow
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
           : 'fixed w-full h-20 z-[100]'
       }
@@ -65,6 +62,7 @@ const Navbar = () => {
             />
           </a>
         </Link>
+        <div></div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -108,7 +106,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-out duration-500'
               : 'fixed left-[-100%] top-0 p-10  duration-500'
           }
         >

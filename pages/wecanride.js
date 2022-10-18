@@ -53,7 +53,7 @@ return (
           <h2 className=" className='p-2' text-[#004aad]">Project Overview</h2>
           <h3>What a ride!</h3>
           <p className="p-2">
-            I enjoyed working remotely with a team of developers using Slack for communication and Github for version controlto build this full stack scheduling app for a worthy cause.  This application is used by volunteers and administrator to manage scheduling with a for an equine therapy organization.  We used
+          This application is used by volunteers and an administrator to manage scheduling with a for an equine therapy organization.  I enjoyed working remotely with a team of developers using Slack for communication and Github for version control to build this full stack scheduling app for a worthy cause.
           </p>
           <p className="p-2">Goals achieved:</p>
           <div>
@@ -61,7 +61,7 @@ return (
               <li>Registration by email verification</li>
               <li>Volunteers add and edit personal information</li>
               <li>Volunteers can contact other volunteers to find a replacement for a shift they can't make</li>
-              <li>Volunteers can offer up shiftsthey won't be able to do</li>
+              <li>Volunteers are able to offer up shifts they won't be able to attend</li>
             </ul>
           </div>
         </div>

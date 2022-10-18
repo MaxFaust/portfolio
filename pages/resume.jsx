@@ -42,7 +42,7 @@ const resume = () => {
           </p>
         </div>
         <p>
-          Accomplished web systems developer across multiple modern technologies, seeking to expand my knowledge and experience in software development spanning the full stack.
+          Accomplished software developement across multiple modern technologies, seeking to expand my knowledge and experience in software development spanning the full stack.
         </p>
 
         {/* Skills */}
@@ -91,15 +91,11 @@ const resume = () => {
             <li>
               Remotely delivered fully deployed applications from design to
               handoff on a sprint schedule using Slack and shared kanban
-              planning strategies on Trello.
+              planning strategies.
             </li>
-            <li>SERN stack with a focus on React web applications. </li>
+            <li>SERN stack with a focus on building React web applications. </li>
             <li>
-              Worked with a team and individually to develop and deplot several full stack applications.
-            </li>
-            <li>
-              Public outreach and relations for the municipality from healthcare
-              awareness to training methods.
+              Worked with a team and individually to develop and deploy several full stack applications.
             </li>
           </ul>
         </div>
@@ -135,20 +131,16 @@ const resume = () => {
         <div className="py-4">
           <p className="italic">
             <span className="font-bold italic">The Wedge Table</span>
-            <span className="px-2">|</span>St. Paul, Mn
+            <span className="px-2">|</span>Minneapolis, Mn
           </p>
-          <p className="py-1 italic">Kitchen Manager</p>
+          <p className="py-1 italic">Production Manager</p>
           <p className=" italic">March 2015 - January 2020</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Supply chain logistics coordination and management on a daily basis
+              Supply chain logistics coordination and management.
             </li>
             <li>
-              Team based development of systems and processes to ensure successful production and delivery to 10+ clients.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Team based development of systems and processes to ensure successful production and delivery to dozens of clients.
             </li>
           </ul>
         </div>

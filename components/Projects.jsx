@@ -25,18 +25,6 @@ const Projects = () => {
             projectUrl="/wecanride"
             tech="SERN stack"
           />
-          <ProjectItem
-            title="We Can Ride"
-            backgroundImg={proshopImg}
-            projectUrl="/proshop"
-            tech="MERN stack"
-          />
-          <ProjectItem
-            title="We Can Ride"
-            backgroundImg={proshopImg}
-            projectUrl="/proshop"
-            tech="MERN stack"
-          />
         </div>
       </div>
     </div>
